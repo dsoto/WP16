@@ -15,9 +15,9 @@ header-includes:
     without subsidy
 - we explore methods to predict appliance acquisition to provide a
     bottom up model for electricity demand
+- we specifically address survey-based estimates of latent demand
 - these methods provide a range of estimates to be corroborated by
     future work
-
 
 # Introduction
 
@@ -182,14 +182,12 @@ header-includes:
 - these potential purchases provide one estimate of latent demand
 
 ### Results
-- This should be relatively constant over access types but our data do
-    not show that
-- surveyed appliance desire provides a larger estimate for eventual
-    ownership than comparison with electrified villages
+- Refrigerators show highest proportion of non-owners desiring ownership
+- Lighting and TV show very low proportions but this could be a problem
+    of survey administration
 - Show bar chart with numbers
-- label: appliance_desire_to_buy_by_access_type
 
-![Predicted Ownership](figures/projected-ownership.png)
+![Appliance Desire to Purchase](figures/willingness.png)
 
 
 ## Electrified estimate of appliance ownership
@@ -224,6 +222,7 @@ header-includes:
 - y-axis percentage ownership after electrification
 - label: appliance_ownership_desire_comparison
 
+![Predicted Ownership](figures/projected-ownership.png)
 
 ## Bottom up estimation ranges
 
