@@ -18,6 +18,8 @@ header-includes:
 - we specifically address survey-based estimates of latent demand
 - these methods provide a range of estimates to be corroborated by
     future work
+- we use this method in a case study of a region undergoing
+    electrification
 
 # Introduction
 
@@ -224,28 +226,23 @@ header-includes:
 
 ![Predicted Ownership](figures/projected-ownership.png)
 
-## Bottom up estimation ranges
+## Bottom up electricity estimation
 
 - using these approaches, we can bound estimates of energy and power
     usage for households and villages
-- we can also create a time series estimate of electricity usage for a
-    village
+- from the measured proportion of appliance ownership in the reporting villages, we can construct a
+    binomial probability distribution for a village about to become electrified
+- from these probability distributions, we can create a monte carlo
+    simulation of appliance ownership.
+- each appliance could also have a probability distribution for its energy use
+    per day
+- these results can create a histogram of trials for the daily
+    electricity use
+- these can be used to bound the electricity generation supplies needed
+
+![Simulated Daily Energy](./figures/daily-energy-simulation.png)
 
 
-## Probability distributions
-
-- approach three: create probability distributions by treating as an
-    ensemble of bernoulli probabilities.  you can then create a
-    distribution of energy consumptions.
-- this allows us to move beyond a point estimate
-- Quantify levels of generator usage observed in no access regions
-- TV and lighting above X% in all areas with little variation
-- television ownership observed in locations without electricity
-    - plot of TV ownership overall, and by access type
-    - AE 1.01.10 is related
-- Stated preferences for appliance purchases do not match current
-    ownership levels in grid regions
-- These provide some point estimates of eventual ownership levels
 
 
 # Future Work
@@ -256,10 +253,3 @@ header-includes:
 - Using measured microgrid data to test estimates
 
 
-# TODO
-- polish outline in Method section
-- add table summary_table
-- decide on keeping probability distribution section
-- borrow compilation mechanism from GHTC paper
-- notebooks should be in markdown format for better archiving?
-- match villages on more than access type for latent comparison?
