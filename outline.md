@@ -192,44 +192,21 @@ header-includes:
 ![Appliance Desire to Purchase](figures/willingness.png)
 
 
-## Electrified estimate of appliance ownership
+## Post-electrification estimate of appliance ownership
 
-- Here we attempt to match villages on more aspects than access type
-- we also estimate ownership by measuring the ownership of appliances in
-    a similar but previously connected village
-- we assume that newly connected villages will eventually resemble
-    previously electrified villages
-- approach two: match villages by other characteristics and find the
-    levels of appliance ownership in the connected villages most like
-    the unconnected villages.  (we focus on high consumption
-    appliances.)  this requires a set of matching criteria.  first
-    strategy is to find factors that reduce the variance in ownership
-    stats
-- Based on the stated desire of survey responses, we can estimate the
-    eventual number of appliance owners by appliance category
-- estimate increased appliance purchases
-- estimate resulting increase in energy usage
-- compare results from approaches
+- we create a post-electrification estimate by adding the surveyed
+    willingness or desire to purchase and add to the existing level of
+    ownership
+- this provides one estimate of ownership
+- this is probably an overestimate
+- we can use this and assumptions about the appliance energy use to
+    estimate resulting increase in energy usage
 
-
-## Comparison of preferences and matched villages
-
-- we can compare these two approaches
-- show differences in percentage forecast by access type
-- side by side box or violin plot with dots
-- The stated desire to buy provides a higher estimate than the
-    previously electrified villages
-- x-axis access type
-- color forecast method
-- y-axis percentage ownership after electrification
-- label: appliance_ownership_desire_comparison
-
-![Predicted Ownership](figures/projected-ownership.png)
 
 ## Bottom up electricity estimation
 
-- using these approaches, we can bound estimates of energy and power
-    usage for households and villages
+- using an estimate of post-electrification ownership, we can bound
+    estimates of energy and power usage for households and villages
 - from the measured proportion of appliance ownership in the reporting villages, we can construct a
     binomial probability distribution for a village about to become electrified
 - from these probability distributions, we can create a monte carlo
@@ -241,15 +218,5 @@ header-includes:
 - these can be used to bound the electricity generation supplies needed
 
 ![Simulated Daily Energy](./figures/daily-energy-simulation.png)
-
-
-
-
-# Future Work
-- Understanding the amount of shared generation
-- Understanding how TV is powered and the cost of that
-- What is the least cost temporal provision of assets for these
-    locations?  We borrow from the current utility planning literature.
-- Using measured microgrid data to test estimates
 
 
