@@ -151,6 +151,7 @@ header-includes:
 - We observe the reported percentage of appliance ownership in each
     access type by summing the yes/no response and dividing by the
     number of respondents
+- We report the number of valid responses in each category
 
 ### Results
 
@@ -168,7 +169,7 @@ header-includes:
 - include number of observations as part of x-axis label?
 - label: appliance_ownership_by_access_type
 
-![Percent Ownership](figures/percent-ownership.png)
+![Percent Ownership](figures/appliance-ownership-by-access-type.png)
 
 <!-- mattrosi/2015&#45;08&#45;26&#45;App&#45;Own&#45;Grid_Type.ipynb -->
 
@@ -189,7 +190,7 @@ header-includes:
     of survey administration
 - Show bar chart with numbers
 
-![Appliance Desire to Purchase](figures/willingness.png)
+![Appliance Desire to Purchase](figures/appliance-demand-by-access-type.png)
 
 
 ## Post-electrification estimate of appliance ownership
