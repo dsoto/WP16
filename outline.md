@@ -35,7 +35,8 @@ header-includes:
 ## Oversizing
 
 - oversized microgrids based on overestimated demand that cannot meet
-    revenue targets contribute to this perception
+    revenue targets contribute to this perception (cite schitzer,
+    lounsbury, USAID)
 - Schnitzer has shown the consequences of generators with excess
     capacity on microgrid operation
     - EPP thesis work chapter three
@@ -46,7 +47,8 @@ header-includes:
     accurate energy estimation
 - with more accurate energy estimation, a micro-utility can reduce
     the variance in revenue
-- reductions in revenue variance should lead to lower-cost capital
+- reductions in revenue variance should lead to lower-cost capital (cite
+    miller center Universal Energy Access)
 - we explore methods for bottom up estimation of appliance ownership
     after electrification
 
@@ -89,6 +91,8 @@ header-includes:
     households in the Lake Sentani region
 - Electricity access among the surveyed households ranged from grid
     access to village-level access, to only household-level sources of energy
+- We are especially interested in comparisons between different levels
+    of access to energy
 - The survey was designed and administered by Advancing Energy and Cenderwash University
     as part of an electrification effort in the Lake Sentani region
 - The survey used the ODK platform which allows for the electronic
@@ -99,8 +103,8 @@ header-includes:
 
 ## Basic Survey Results
 
-- 26 Villages
-- Range of village sizes
+- 26 Villages were surveyed
+- Range of village sizes from X to Y
 - Range of percentage of households surveyed per village
 - Average households surveyed per village
 - Percentage of households surveyed per village
@@ -143,7 +147,7 @@ header-includes:
 
 ### Method
 - We observe the overall reported percentage of household reporting
-    ownership of each appliance (fig or table) using survey questions
+    ownership of each appliance using survey questions
 - We report for lighting, mobile phones, television, radio,
     refrigerators, fans, and rice cookers
 - We then split the dataset and assign each village to an access type
@@ -165,13 +169,9 @@ header-includes:
 - We observe variation in radio ownership with concentration of
     ownership in off-grid and community run microgrid areas
 - No explanation for this observation
-- bar chart
-- include number of observations as part of x-axis label?
-- label: appliance_ownership_by_access_type
+- label: appliance-ownership-by-access-type
 
 ![Percent Ownership](figures/appliance-ownership-by-access-type.png)
-
-<!-- mattrosi/2015&#45;08&#45;26&#45;App&#45;Own&#45;Grid_Type.ipynb -->
 
 
 ## Surveyed Appliance Desire
@@ -179,7 +179,6 @@ header-includes:
 ### Method
 - we provide an estimate of post-electrification appliance ownership
     using the survey responses
-- for households that don't currently own an appliance, we
 - of the households that do not own an appliance, what fraction of them
     state a preference to buy one if electricity is available
 - these potential purchases provide one estimate of latent demand
@@ -188,7 +187,7 @@ header-includes:
 - Refrigerators show highest proportion of non-owners desiring ownership
 - Lighting and TV show very low proportions but this could be a problem
     of survey administration
-- Show bar chart with numbers
+- label: appliance-demand-by-access-type
 
 ![Appliance Desire to Purchase](figures/appliance-demand-by-access-type.png)
 
