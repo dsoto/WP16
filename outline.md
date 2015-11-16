@@ -91,6 +91,11 @@ header-includes:
     households in the Lake Sentani region
 - Electricity access among the surveyed households ranged from grid
     access to village-level access, to only household-level sources of energy
+- For the appliance measurements we detail below, we have 417 grid
+    surveys, 160 microgrid surveys, and 182 surveys with no
+    village-level access
+- Of the total households available, the percentage surveyed ranged from
+    45% to 75%
 - We are especially interested in comparisons between different levels
     of access to energy
 - The survey was designed and administered by Advancing Energy and Cenderwash University
