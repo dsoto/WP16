@@ -1,6 +1,32 @@
 ---
 header-includes:
     - \usepackage[top=1.0in, bottom=1.0in, left=1.0in, right=1.0in]{geometry}
+references:
+- type: article-journal
+  id: Taneja2015
+  author:
+  - family: Taneja
+    given: J.
+  issued:
+    date-parts:
+    - - 2015
+      - 01
+      - 01
+  title: 'Mapping Latent Demand'
+  container-title: ACM DEV
+- type: article-journal
+  id: USAID2015
+  author:
+  - family: Schnitzer
+  - family: Lounsbury
+- type: article-journal
+  id: Schnitzer2014
+  author:
+  - family: Schnitzer
+    given: D.
+  title: 'Thesis'
+- id: Wolfram2015
+  title: 'How will energy access develop'
 ---
 
 # Possible Titles
@@ -35,11 +61,9 @@ header-includes:
 ## Oversizing
 
 - oversized microgrids based on overestimated demand that cannot meet
-    revenue targets contribute to this perception (cite schitzer,
-    lounsbury, USAID)
+    revenue targets contribute to this perception [@USAID2015]
 - Schnitzer has shown the consequences of generators with excess
-    capacity on microgrid operation
-    - EPP thesis work chapter three
+    capacity on microgrid operation [@Schnitzer2014]
 - to avoid excess capacity, systems must be sized appropriately
 - accurate sizing requires accurate demand estimation
 - estimating demand in areas without access is challenging
@@ -75,7 +99,7 @@ header-includes:
 - the wolfram study forecasts appliance purchases stimulated by
     increases in wealth
 - Jay Taneja IBM Nairobi paper shows district based approach to village
-    pairing strategy
+    pairing strategy [@Taneja2015]
 - We augment this pairing strategy with desire to buy
 - this study forecasts energy demand by comparing similar villages
     before and after a connection to electricity

@@ -6,7 +6,7 @@ outline.pdf: outline.md	\
 	         figures/daily-energy-simulation.png \
 			 figures/appliance-ownership-by-access-type.png \
 			 figures/appliance-demand-by-access-type.png
-	pandoc outline.md -o outline.pdf
+	pandoc --filter pandoc-citeproc outline.md -o outline.pdf
 
 figures/daily-energy-simulation.png: figures/daily-energy-simulation.ipynb
 	runipy figures/daily-energy-simulation.ipynb
