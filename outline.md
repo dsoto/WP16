@@ -1,32 +1,76 @@
 ---
 header-includes:
     - \usepackage[top=1.0in, bottom=1.0in, left=1.0in, right=1.0in]{geometry}
+
 references:
-- type: article-journal
-  id: Taneja2015
+
+- id: Taneja2015
+  title: Mapping Latent Demand
+  type: article-journal
   author:
   - family: Taneja
     given: J.
   issued:
-    date-parts:
-    - - 2015
-      - 01
-      - 01
-  title: 'Mapping Latent Demand'
+    year: 2015
   container-title: ACM DEV
-- type: article-journal
-  id: USAID2015
+
+- id: USAID2015
+  title: Microgrids for Rural Electrification
+  type: report
   author:
   - family: Schnitzer
   - family: Lounsbury
-- type: article-journal
-  id: Schnitzer2014
+  - family: Carvallo
+  - family: Deshmukh
+  - family: Apt
+  - family: Kammen
+  issued:
+    year: 2015
+
+- id: Schnitzer2014
+  title: Microgrids and High-Quality Central Grid Alternatives
+  type: thesis
   author:
   - family: Schnitzer
     given: D.
-  title: 'Thesis'
+  issued: 2015
+
+- id: Wolfram2012
+  title: How Will Energy Demand Develop in the Developing World
+  author:
+  - family: Wolfram
+  - family: Shelef
+  - family: Gertler
+  container-title: Journal of Economic Perspectives
+  issued:
+    year: 2012
+
 - id: Wolfram2015
-  title: 'How will energy access develop'
+  title: The Demand for Energy-Using Assets among the World's Rising Middle Classes
+  author:
+  - family: Gertler
+  author:
+  - family: Shelef
+  author:
+  - family: Wolfram
+  author:
+  - family: Fuchs
+  issued:
+    year: 2015
+  type: report
+
+- id: JaramilloReview2015
+  title: Enabling Private Sector Investment
+  author:
+  - family: Williams
+  - family: Jaramillo
+  - family: Taneja
+  - family: Ustun
+  container-title: Renewable and Sustainable Energy Reviews
+  issued:
+    year: 2015
+
+
 ---
 
 # Possible Titles
@@ -55,7 +99,7 @@ references:
 - global electricity access is poor
 - many areas require private capital to install electricity
 - part of problem is upfront investment cost
-- due to perceived business risk, upfront capital is costly (citation)
+- due to perceived business risk, upfront capital is costly [@JaramilloReview2015]
 
 
 ## Oversizing
@@ -71,8 +115,8 @@ references:
     accurate energy estimation
 - with more accurate energy estimation, a micro-utility can reduce
     the variance in revenue
-- reductions in revenue variance should lead to lower-cost capital (cite
-    miller center Universal Energy Access)
+- reductions in revenue variance should lead to lower-cost capital
+    [@JaramilloReview2015]
 - we explore methods for bottom up estimation of appliance ownership
     after electrification
 
@@ -95,9 +139,9 @@ references:
 - other studies have made forecasts of electricity demand in areas with
     low or no access to electricity
 - Wolfram et al have used an econometric approach to predict the
-    appliance acquisition as communities encounter wealth
+    appliance acquisition as communities encounter wealth [@Wolfram2012, @Wolfram2015]
 - the wolfram study forecasts appliance purchases stimulated by
-    increases in wealth
+    increases in wealth [@Wolfram2012, @Wolfram2015]
 - Jay Taneja IBM Nairobi paper shows district based approach to village
     pairing strategy [@Taneja2015]
 - We augment this pairing strategy with desire to buy
