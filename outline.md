@@ -276,6 +276,8 @@ references:
     estimate resulting increase in energy usage
 
 
+![Post Electrification Ownership Percentages](figures/post-electrification-ownership.png)
+
 ## Bottom up electricity estimation
 
 - using an estimate of post-electrification ownership, we can bound

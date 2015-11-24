@@ -5,7 +5,8 @@ all: outline.pdf
 outline.pdf: outline.md	\
 	         figures/daily-energy-simulation.png \
 			 figures/appliance-ownership-by-access-type.png \
-			 figures/appliance-demand-by-access-type.png
+			 figures/appliance-demand-by-access-type.png \
+			 figures/post-electrification-ownership.png
 	pandoc --filter pandoc-citeproc outline.md -o outline.pdf
 
 figures/daily-energy-simulation.png: figures/daily-energy-simulation.ipynb
@@ -16,6 +17,9 @@ figures/appliance-ownership-by-access-type.png: figures/appliance-ownership-by-a
 
 figures/appliance-demand-by-access-type.png: figures/appliance-demand-by-access-type.ipynb
 	runipy figures/appliance-demand-by-access-type.ipynb
+
+figures/post-electrification-ownership.png: figures/post-electrification-ownership.ipynb
+	runipy figures/post-electrification-ownership.ipynb
 
 # all: author-prepared.pdf soto-ghtc.pdf draft.pdf
 #
