@@ -1,9 +1,3 @@
----
-header-includes:
-    - \usepackage[top=1.0in, bottom=1.0in, left=1.0in, right=1.0in]{geometry}
-
----
-
 # Possible Titles
 - Multiple estimates of latent demand using survey data
 - Appliance acquisition after electricity provision
