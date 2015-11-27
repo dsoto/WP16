@@ -7,7 +7,8 @@ outline.pdf: outline.md	\
 			 figures/appliance-ownership-by-access-type.png \
 			 figures/appliance-demand-by-access-type.png \
 			 figures/post-electrification-ownership.png
-	pandoc --filter pandoc-citeproc outline.md -o outline.pdf
+	#pandoc --filter pandoc-citeproc outline.md -o outline.pdf
+	pandoc --bibliography bib.yaml --filter pandoc-citeproc outline.md -o outline.pdf
 
 figures/daily-energy-simulation.png: figures/daily-energy-simulation.ipynb
 	runipy figures/daily-energy-simulation.ipynb
