@@ -9,7 +9,7 @@ outline.pdf: outline.md	\
 			 figures/appliance-ownership-by-access-type.png \
 			 figures/appliance-demand-by-access-type.png \
 			 figures/post-electrification-ownership.png
-	pandoc --bibliography bib.yaml \
+	pandoc --bibliography bibliography.yaml \
 		   --filter pandoc-citeproc \
 		   outline.md metadata.yaml \
 		   -o outline.pdf
