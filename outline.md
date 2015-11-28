@@ -169,7 +169,9 @@
 - No explanation for this observation
 - label: appliance-ownership-by-access-type
 
-![Percent Ownership](figures/appliance-ownership-by-access-type.png)
+![Percent Ownership: Plots percentages of households reporting ownership
+of each type of appliance based on current electricity access type.
+](figures/appliance-ownership-by-access-type.png)
 
 
 ## Surveyed Appliance Desire
@@ -187,7 +189,9 @@
     of survey administration
 - label: appliance-demand-by-access-type
 
-![Appliance Desire to Purchase](figures/appliance-demand-by-access-type.png)
+![Appliance Desire to Purchase: Plots percentages of homeowners not
+currently owning an appliance that state a willingness to buy that
+appliance.](figures/appliance-demand-by-access-type.png)
 
 
 ## Post-electrification estimate of appliance ownership
@@ -201,14 +205,18 @@
     estimate resulting increase in energy usage
 
 
-![Post Electrification Ownership Percentages](figures/post-electrification-ownership.png)
+![Post Electrification Ownership Percentages: Plot of expected level of
+appliance ownership after electrification using survey responses of
+interest in purchasing as a proxy for future
+purchase.](figures/post-electrification-ownership.png)
 
 ## Bottom up electricity estimation
 
 - using an estimate of post-electrification ownership, we can bound
     estimates of energy and power usage for households and villages
-- from the measured proportion of appliance ownership in the reporting villages, we can construct a
-    binomial probability distribution for a village about to become electrified
+- from the measured proportion of appliance ownership in the reporting
+- villages, we can construct a binomial probability distribution for a
+    village about to become electrified
 - from these probability distributions, we can create a monte carlo
     simulation of appliance ownership.
 - each appliance could also have a probability distribution for its energy use
@@ -217,6 +225,12 @@
     electricity use
 - these can be used to bound the electricity generation supplies needed
 
-![Simulated Daily Energy](./figures/daily-energy-simulation.png)
+![Simulated Daily Energy: Plots results of a Monte Carlo simulation of
+the electricity use based on the probability of each household owning an
+appliance.](./figures/daily-energy-simulation.png)
 
+# Conclusion
 
+# Acknowledgements
+
+# References
