@@ -1,17 +1,16 @@
-# Possible Titles
-- Multiple estimates of latent demand using survey data
-- Appliance acquisition after electricity provision
-- Strategies to estimate post-electrification appliance acquisition and
+# Working Title
+
+Strategy to estimate post-electrification appliance acquisition and
     demand growth
 
 # Abstract
 
 - in remote areas, electricity provision must be financially viable
     without subsidy
-- we explore methods to predict appliance acquisition to provide a
+- we explore a method to predict appliance acquisition to provide a
     bottom up model for electricity demand
-- we specifically address survey-based estimates of latent demand
-- these methods provide a range of estimates to be corroborated by
+- we specifically use a survey-based estimate of latent demand
+- this method is one of a range of estimates to be corroborated by
     future work
 - we use this method in a case study of a region undergoing
     electrification
@@ -35,7 +34,7 @@
     capacity on microgrid operation [@Schnitzer2014]
 - to avoid excess capacity, systems must be sized appropriately
 - accurate sizing requires accurate demand estimation
-- estimating demand in areas without access is challenging
+- estimating demand in areas without access is challenging (citation)
 - through more accurate appliance estimation, we may achieve more
     accurate energy estimation
 - with more accurate energy estimation, a micro-utility can reduce
@@ -55,7 +54,7 @@
     of appliance acquisition after electrification
 - this appliance forecast can be used to create a bottom-up model of
     electricity demand (cite World Bank Policy Research Working Paper 4866)
-- in the short term, we do not use top-down as we do not expect the
+- in the short term, we do not use a top-down modeling approach as we do not expect the
     availability of electricity to significantly influence income
 
 
@@ -63,20 +62,41 @@
 
 - other studies have made forecasts of electricity demand in areas with
     low or no access to electricity
+- these have used econometric studies of wealth shocks or comparisons of
+    villages by socioeconomic means
 - Wolfram et al have used an econometric approach to predict the
     appliance acquisition as communities encounter wealth [@Wolfram2012, @Wolfram2015]
 - the wolfram study forecasts appliance purchases stimulated by
     increases in wealth [@Wolfram2012, @Wolfram2015]
 - Jay Taneja IBM Nairobi paper shows district based approach to village
     pairing strategy [@Taneja2015]
-- We augment this pairing strategy with desire to buy
+- We augment this pairing strategy with survey-based measurements of desire to buy
 - this study forecasts energy demand by comparing similar villages
     before and after a connection to electricity
-
+- this is an energy supply shock rather than an income shock
 
 
 # Method
 
+## Current Ownership
+- Households report if they own a certain appliance
+- Households are grouped by electricity access type
+
+## Willingness to Buy
+- Households not owning an appliance are asked if they would purchase if
+    reliable electricity were available
+- This fraction is calculated
+
+## Latent Demand
+- From the current ownership levels and the predicted purchase fraction
+    we can estimate the appliance ownership after electrification
+- This doesn't capture the rate of acquisition, only the level after a
+    transition in the absence of economic growth
+- This short run forecast is important for microgrid entrepreneurs
+
+## Electricity Forecast
+- From assumptions about the appliance characteristics, you can estimate
+    the daily electricity use in a stochastic model
 
 ## Study Basic Detail
 
