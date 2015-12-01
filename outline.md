@@ -78,6 +78,30 @@ Strategy to estimate post-electrification appliance acquisition and
 
 # Method
 
+## Overview
+- We present a survey-based method of estimating appliance purchase
+- We present a case study of a group of villages that illustrates the
+    method
+- We outline a comparison to future data
+
+## Survey
+- Surveys are a common instrument for estimating energy demand
+- Usually surveys ask about appliances used and duration of use (cite WB
+    doc)
+- Adding questions about willingness to pay for appliances after
+    electrification can add information
+- Typically electricity demand is overestimated (victor, MARKAL,
+    schnitzer)
+- If we collect additional information about households and villages, we
+    can group households with similar appliance ownership and
+    aspirations
+- The fraction of projected ownership from each grouping is used to
+    create projections of energy use using a Bernoulli probability
+    distribution for each household and a binomial distribution for a
+    group of households or village.  This is combined with a
+    distribution of energy uses to arrive at a distribution of possible
+    energy consumption levels.
+
 ## Current Ownership
 - Households report if they own a certain appliance
 - Households are grouped by electricity access type
@@ -97,6 +121,8 @@ Strategy to estimate post-electrification appliance acquisition and
 ## Electricity Forecast
 - From assumptions about the appliance characteristics, you can estimate
     the daily electricity use in a stochastic model
+
+# Case study
 
 ## Study Basic Detail
 
